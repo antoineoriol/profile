@@ -1,0 +1,144 @@
+body {
+  background: #F7F9FC;
+  color: #1120eb;
+  font-family: 'helvetica', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0px;
+  cursor: cell;
+}
+
+h1 {
+  color: #1120eb;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #131313;
+  font-family: helvetica;
+}
+
+h3 {
+  font-size: 16px;
+  color: #131313;
+  letter-spacing: 1px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  font-size: 40px;
+  margin: 0px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+.up_space {
+  padding: 20px;
+}
+
+.white_card {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+}
+
+.white_card:hover {
+  border: #1120eb 7px solid;
+  border-radius: 10px;
+}
+
+
+.img-circle {
+  border-radius: 10%;
+  border: #1120eb 7px solid;
+}
+
+.img-circle:hover {
+  border-radius: 50%;
+  border: black 7px solid;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline a {
+  font-size: 40px;
+  color: #1120eb;
+}
+
+.list-inline a:hover {
+  color: black;
+}
+
+.button {
+  line-height: 64px;
+  background-color: #1120eb;
+  color: white;
+  padding: 15px 20px;
+  width : 130px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #000000;
+  font-weight: 900;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+}
